@@ -1,5 +1,5 @@
 package main.java;
-
+/*
 import main.java.animals.Kotik;
 
 public class Application {
@@ -43,3 +43,4 @@ public class Application {
 
     }
 }
+*/
