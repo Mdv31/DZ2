@@ -1,16 +1,18 @@
 package main.java.employee;
-
 import main.java.animals.Animal;
-import main.java.animals.Duck;
-import main.java.food.Grass;
+import main.java.food.Food;
+
 
 public class Worker {
-    public void feed(Duck animal, Grass food) {
+    public void feed(Animal animal, Food food) {
+        System.out.println("\nРабочий дал корм");
+        animal.eat(food);
 
     }
 
-    public void getVoice(Duck animal) {
-    System.out.println("запросить голос");
+    public void getVoice(Animal animal) {
+        System.out.println("\nРабочий запросил голос");
+        animal.getVoice();
 
     }
 }

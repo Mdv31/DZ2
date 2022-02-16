@@ -3,25 +3,14 @@ package main.java.animals;
 import main.java.food.Food;
 
 public abstract class Animal {
-    private int satiety ;
+    private int satiety =10;
     public int getSatiety() {
         return satiety;
     }
 
-    abstract void eat(Food food);
+    public abstract void eat(Food food);
 
-    public class Herbivore extends Animal{
-        @Override
-        void eat(Food food) {
-            return;
-            //if(food Instanceof Grass) //
+    public abstract void getVoice();
 
-        }
-    }
-    public class Carnivorous extends Animal{
-        @Override
-        void eat(Food food) {
 
-        }
-    }
 }
