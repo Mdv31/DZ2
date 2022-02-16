@@ -1,8 +1,6 @@
 package main.java.animals;
 
 
-import java.util.ArrayList;
-
 public class Kotik {
     private final int METHODS = 5;
     private static int COUNT = 0;

@@ -1,6 +1,4 @@
 package main.java;
-
-import main.java.animals.Animal;
 import main.java.animals.Duck;
 import main.java.employee.Worker;
 import main.java.food.Grass;
