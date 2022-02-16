@@ -11,10 +11,6 @@ public class Tiger extends Carnivorous implements Fly, Run, Swim, Voice {
         this.voice = "Mrrrr - Mrrrr!";
     }
 
-    @Override
-    public void eat(Food food) {
-        this.eat(food);
-    }
 
     @Override
     public void getVoice() {

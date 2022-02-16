@@ -1,9 +1,18 @@
 package main.java.animals;
 
-public class Rabbit {//} extends Animal.Carnivorous implements Run,Voice {
+public class Rabbit extends Herbivore implements Run,Voice {
     private int satiety ;
 
-    public int getSatiety() {
-        return satiety;
-        }
+    private String voice;
+
+
+    public Rabbit() {
+        this.voice = "Piii - Piii!";
+    }
+
+
+    @Override
+    public void getVoice() {
+        System.out.println(this.voice);
+    }
 }
