@@ -12,4 +12,9 @@ public abstract class Animal {
 
 
     public abstract String getVoice();
+
+    public String swim() {
+        return null;
+    }
+
 }

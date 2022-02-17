@@ -1,5 +1,7 @@
 package main.java;
+import main.java.animals.Animal;
 import main.java.animals.Duck;
+import main.java.animals.Fish;
 import main.java.animals.Tiger;
 import main.java.employee.Worker;
 import main.java.food.Grass;
@@ -13,6 +15,9 @@ public class Zoo {
         Meat Kolbasa = new Meat();
         Worker Ivan = new Worker();
 
+        //При выхове метода гетвойс воркером у воркера - ошибка :
+        //java: incompatible types: main.java.employee.Worker cannot be converted to main.java.animals.Animal
+        //Ivan.getVoice(Ivan);
 
         Ivan.getVoice(Donald);
         Ivan.feed(Donald,Trawa);
@@ -24,8 +29,16 @@ public class Zoo {
         System.out.println("\nЭнергия от травы : "+Trawa.getEnergy());
         System.out.println("\nЭнергия от мяса : "+Kolbasa.getEnergy());
 
+        Animal[] Pond = createPond();
+        System.out.println(Pond[0].swim());
+        System.out.println(Pond[1].swim());
 
-
-
+    }
+    static Animal[] createPond(){
+        Animal[] Pond;
+        Pond = new Animal[2];
+        Pond[0]= new Duck();
+        Pond[1]= new Fish();
+        return Pond;
     }
 }

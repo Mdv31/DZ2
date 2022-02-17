@@ -2,7 +2,7 @@ package main.java.animals;
 
 
 
-class Fish extends Herbivore implements Swim{
+public class Fish extends Herbivore implements Swim{
 
     @Override
     public String swim() {

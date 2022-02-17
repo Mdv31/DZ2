@@ -17,7 +17,6 @@ public class Duck extends Herbivore implements Fly, Run, Swim, Voice {
 
     @Override
     public String fly(){
-        //System.out.println("Лечу !");
         return "Я лечу!";
     }
     @Override
