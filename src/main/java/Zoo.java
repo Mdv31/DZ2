@@ -15,8 +15,9 @@ public class Zoo {
         Meat Kolbasa = new Meat();
         Worker Ivan = new Worker();
 
-        //При выхове метода гетвойс воркером у воркера - ошибка :
-        //java: incompatible types: main.java.employee.Worker cannot be converted to main.java.animals.Animal
+        // При выхове метода гетвойс воркером у воркера - ошибка :
+        // java: incompatible types: main.java.employee.Worker cannot be converted to main.java.animals.Animal
+        // Для проверки снять комментарий
         //Ivan.getVoice(Ivan);
 
         Ivan.getVoice(Donald);
