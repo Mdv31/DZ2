@@ -10,7 +10,6 @@ public abstract class Animal {
 
     public abstract void eat(Food food);
 
-    public abstract void getVoice();
 
-
+    public abstract String getVoice();
 }

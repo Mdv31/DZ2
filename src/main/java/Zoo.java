@@ -21,6 +21,11 @@ public class Zoo {
         Ivan.feed(Murka,Trawa);
         Ivan.feed(Murka,Kolbasa);
 
+        System.out.println("\nЭнергия от травы : "+Trawa.getEnergy());
+        System.out.println("\nЭнергия от мяса : "+Kolbasa.getEnergy());
+
+
+
 
     }
 }

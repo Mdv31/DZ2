@@ -12,7 +12,11 @@ public class Rabbit extends Herbivore implements Run,Voice {
 
 
     @Override
-    public void getVoice() {
-        System.out.println(this.voice);
+    public String getVoice() {
+        return this.voice;
+    }
+    @Override
+    public String run() {
+        return "Я бегу!";
     }
 }

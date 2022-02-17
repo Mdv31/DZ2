@@ -12,7 +12,7 @@ public class Worker {
 
     public void getVoice(Animal animal) {
         System.out.println("\nРабочий запросил голос");
-        animal.getVoice();
+        System.out.println(animal.getVoice());
 
     }
 }

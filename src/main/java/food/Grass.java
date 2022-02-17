@@ -1,7 +1,8 @@
 package main.java.food;
 
 public class Grass extends Food{
-    int getEnergy(int k){
+    int k=3;
+    public int getEnergy(){
         return k;
     }
 }

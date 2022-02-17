@@ -1,7 +1,8 @@
 package main.java.food;
 
 public class Meat extends Food{
-    int getEnergy(int k){
+    int k=7;
+    public int getEnergy(){
         return k;
 
     }

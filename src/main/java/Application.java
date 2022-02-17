@@ -30,7 +30,7 @@ public class Application {
 
         //сравнение голосов котиков
         System.out.println("\nСравнение голосов котиков:");
-        if (Barsik.getVoice().equals(Murka.getVoice())){
+        if (Barsik.getVoice1().equals(Murka.getVoice1())){
             System.out.println("Голоса одинаоквы");
         }
         else System.out.println("Голоса разные");
